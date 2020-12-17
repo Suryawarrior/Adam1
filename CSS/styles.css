@@ -1,0 +1,247 @@
+/******************** ELEMENT SELECTORS ********************/
+body {
+  margin: auto;
+  text-align: center;
+  background-color: #FFFDFA;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Tangerine', cursive;
+  font-size: 6vw;
+  color: #497492;
+  text-shadow: 5px 5px 10px #F3FAFF;
+  text-align: left;
+  padding-left: 30%;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+  color: #4798EA;
+  font-weight: 900;
+  width: 40%;
+  margin: 4% auto 3% auto;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3vw;
+  text-align: left;
+  font-weight: bold;
+  color: #404766;
+  width: 40%;
+  margin: 2.5% 0 1.5% 0;
+  padding-left: 20%;
+  padding-bottom: 3%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+  width: 50%;
+  margin: auto;
+  color: #4C6376;
+}
+
+footer {
+  background-color: #BCE2FF;
+}
+
+hr {
+  border: none;
+  border-top: 0.5vw dotted #BCE2FF;
+  width: 5%;
+  margin: 6% auto 5% auto;
+}
+
+
+/******************** CLASS SELECTORS ********************/
+/******************** TOP-CONTAINER ********************/
+.top-container {
+  background-image: linear-gradient(to right bottom, #79C9FF, #8CD1FF, #A2DAFF, #C3E7FF, #D3EDFF, #E5F5FF, #F1F9FF, #F8FCFF, #FAFDFF, #FCFEFF, #FFFFFF);
+  padding-top: 8%;
+  padding-bottom: 10%;
+  position: relative;
+}
+
+#id {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #F4F6F8;
+  text-align: left;
+  padding-left: 30%;
+}
+
+.architekt {
+  position: absolute;
+  top: 3%;
+  right: 0;
+  width: 33%;
+}
+
+.paleta {
+  position: absolute;
+  left: 0;
+  bottom: 0.2%;
+  width: 25%;
+  opacity: 0.8;
+}
+
+/******************** MIDDLE-CONTAINER ********************/
+.adam {
+  margin: 5% auto auto auto;
+  width: 15%;
+}
+
+
+.middle-container {
+  background-color: #F8FEFF;
+  margin: auto;
+}
+
+.divzed {
+  padding-left: 20%;
+}
+
+.divfas {
+  padding-right: 20%;
+}
+
+.divmal {
+  padding-left: 20%;
+}
+
+.omne {
+  width: 50%;
+  margin: auto;
+}
+
+.skills {
+  width: 50%;
+  margin: auto;
+}
+
+.sluzbynadpis {
+  padding-bottom: 3%;
+}
+
+
+.zednictvi {
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.zed {
+  float: left;
+  width: 15%;
+  padding-left: 7%;
+}
+
+.fasady {
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.fasad {
+  float: right;
+  width: 15%;
+  padding-right: 8%;
+}
+
+.malovani {
+  text-align: left;
+}
+
+.malovat {
+  float: left;
+  width: 15%;
+  padding-left: 7%;
+}
+
+/******************** BOTTOM-CONTAINER ********************/
+.prace {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.pracetext {
+  padding-left: 31%;
+}
+
+.pojdme {
+  color: #1C8FE5;
+}
+
+
+.BUTTON_TBQ {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 34px;
+   -moz-border-radius: 34px;
+   border-radius: 34px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 20%;
+   font-size: 1vw;
+   font-weight: 500;
+   padding: 30px;
+   -webkit-box-shadow: 0 1px 20px 0 #000000;
+   -moz-box-shadow: 0 1px 20px 0 #000000;
+   box-shadow: 0 1px 20px 0 #000000;
+   text-shadow: 0 1px 20px #000000;
+   border: double #337FED 8px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_TBQ:hover {
+   border: solid #337FED 0;
+   background: #EAEDF3;
+   background-image: -webkit-linear-gradient(top, #EAEDF3, #3D94F6);
+   background-image: -moz-linear-gradient(top, #EAEDF3, #3D94F6);
+   background-image: -ms-linear-gradient(top, #EAEDF3, #3D94F6);
+   background-image: -o-linear-gradient(top, #EAEDF3, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #EAEDF3, #3D94F6);
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   text-decoration: none;
+}
+
+.noha {
+  margin: auto;
+  margin-top: 6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.fb {
+  margin: 0;
+  width: 2%;
+  padding-right: 0.5%;
+  padding-bottom: 1.0%;
+}
+
+.ig {
+  margin: 0;
+  width: 2.4%;
+  padding-left: 0.5%;
+  padding-bottom: 0.8%;
+}
+
+.konec {
+  color: #F5F8FB;
+  font-weight: bold;
+}
